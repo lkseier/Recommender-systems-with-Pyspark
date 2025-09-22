@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# Ignore all data files (remove this line if you want to keep sample data)
+data/
+# Ignore model output
+als_model/
+# Ignore Jupyter notebook metadata
+.ipynb_checkpoints/
+# Ignore logs
+*.log
+# Ignore OS files
+.DS_Store
+Thumbs.db
+# Ignore Python egg and cache
+*.egg-info/
+.pytest_cache/
+# Ignore environment and build folders
+env/
+build/
+dist/
+# Ignore VSCode settings
+.vscode/
